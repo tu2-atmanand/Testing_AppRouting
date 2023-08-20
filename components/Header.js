@@ -1,8 +1,8 @@
 
-import { useRouter } from "next/router";
-import React, { useState } from "react";
+import { useServerNavigation } from "next/navigation";
+import React from "react";
 import Link from "next/link";
-import styles from "../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 
 import AppBar from "@mui/material/AppBar";
@@ -10,7 +10,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
-import logo from "../../public/logo.svg"
+import logo from "../public/next.svg"
 
 // import "./Header.css";
 
@@ -43,7 +43,7 @@ function Header({ title }) {
             </div>
             <div className={styles.navitem}>
               <Typography variant="h6" component="div">
-                <Link href="/FOSS" className={styles.navlink}>
+                <Link href="/foss" className={styles.navlink}>
                   FOSS
                 </Link>
               </Typography>

@@ -1,6 +1,6 @@
 
-import { useRouter } from "next/router";
-import styles from "../../styles/Home.module.css"
+import { useServerNavigation } from "next/navigation";
+import styles from "../styles/Home.module.css"
 
 const Footer = () => {
 
