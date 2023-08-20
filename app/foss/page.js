@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import styles from "../../styles/Home.module.css"
-import logo from "../../public/logo.svg"
+import logo from "../../public/logo512.png"
 
 export default function Foss() {
   return (
